@@ -1,20 +1,21 @@
 #include<iostream>
 using namespace std;
+main(){
+	cout <<"Enter the current world population: ";
+        float population;
+	cin >> population;
+	cout <<"Enter the monthly birth rate (number of births per month): ";
+        float birth;
+	cin >> birth;
+	float pr;
+        pr=birth*12;
+	float cr;
+	cr=pr*30;
+	float decades;
+	decades=population+cr;
+        cout<<"The population in three decades will be: ";
+	cout<<decades;
+        
 
-main() 
-{       cout << "                           ----......................         "<<endl;
-        cout << "                   -- ..'-'.]]- .'-._                            "<<endl;
-        cout << "          .-'           (_) |                     ]]              ']]'-.                 "<<endl;
-        cout<<  "  ____-'    -----------------'----------------------]]---......----]]---'.'-..---  '__ .     "<<endl;
-        cout<<  " /-            _-----_                            Xxx|x.....        |         _.._       -  _  "<<endl;                        
-        cout<<  " | T        -.        .-                          XXX|XXXXXXXXX==   |      .'.---..'.         ._   "<<endl;
-        cout<<  " | |       -. . _____   '.-                       XXX|XXXXXXXXX==   |   / /        .            --"<<endl;
-        cout<<  " ]-j     .' .    ---    ..  -                     XXX|'                 | | /  --     ) )          .  "<<endl; 
-        cout<<  "  -|    /  /    /   )     )  )                       |                  | |    )     | |             |"<<endl;
-        cout<<  "       |  |     (---/     |  |-----------------------|--   |------------| |   (--/     | |------------]"<<endl;            
-        cout<<  " |---  |  )(            /  ./-------------------------------------------( (         / / -------------)"<<endl;     
-        cout<<  "          ' ' ------- '  '                                                 '.'------'-'       "<<endl;
-        cout<<  "           '           '    dp "<<endl;
-        cout<<  "            ''        "<<endl;    
-
-}    
+}
+        

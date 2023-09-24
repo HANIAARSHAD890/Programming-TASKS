@@ -1,18 +1,29 @@
 #include<iostream>
 using namespace std;
-
-main() 
-{ 
-        cout << "                         8888888888   888     888888                      "<<endl;
-        cout << "                        88     88    88 88    88   88                      "<<endl;
-        cout << "                         8888  88   88   88   888888                    "<<endl;
-        cout<<  "                            88 88  8888888888 88   88      "<<endl;
-        cout<<  "                       888888  88  88      88 88    888888    "<<endl;
-        cout<<  "                                                                           "<<endl;
-        cout<<  "                      88   88   88     888        88888    8888888          "<<endl;
-        cout<<  "                      88   88   88    88  88      88   88 88                "<<endl;
-        cout<<  "                      88  8888  88   88    88     888888    8888      "<<endl;
-        cout<<  "                       888    888   8888888888    88   88      88             "<<endl;
-        cout<<  "                        88    88   88        88   88    888888888            "<<endl;     
-
-}    
+main(){
+	cout <<"Enter the name of the cricket team: ";
+	string cricketteam;
+	cin >>cricketteam;
+        cout <<"Enter the number of wins: ";
+	int wins;
+	cin >>wins;
+	int win;
+	win=3*wins;
+	cout <<"Enter the number of draws: ";
+	int draws;
+	cin >>draws;
+	int draw;
+	draw=1*draws;
+	cout <<"Enter the number of losses: ";
+	int losses;
+	cin >>losses;
+	int points;
+	points=win+draw;
+	cout <<cricketteam;
+	cout<< " has obtained";
+	cout <<points;
+	cout <<" points in the Asia Cup tournament.";
+	
+	
+        
+        }

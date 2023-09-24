@@ -1,13 +1,8 @@
-
-
-
-
-
 #include<iostream>
 using namespace std;
 main(){
 	cout << "Enter the size in megabytes (MB): ";
-        float megabytes;
+        int megabytes;
         cin >> megabytes;
 	float bits;
 	bits=megabytes*8388608;

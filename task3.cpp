@@ -1,11 +1,15 @@
 #include<iostream>
 using namespace std;
-main() 
-{ 
-        cout << "         /\\         "<<endl;
-        cout << "      __/~~\\__      "<<endl;
-        cout << "     /  |  |   \\    "<<endl;
-        cout << "  ======.  .=====    "<<endl;
-        cout << "        ||||         "<<endl;
-       
-}    
+main(){
+	cout << "Enter voltage (in volts): ";
+        int length;
+        cin >> length;
+        cout<< "Enter current(in amperes): ";
+        int width;
+        cin >> width;
+	int area;
+	area=lengt*width;
+        cout<< "The power is: "<< area;
+	cout<< "Watts"
+
+}
